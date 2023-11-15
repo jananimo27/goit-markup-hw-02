@@ -314,7 +314,9 @@ header address .list-item-link:focus {
 
 /* footer styling */
 .footer {
-  background-color: var(--navyblue);
+  background-color: var(
+    --navyblue
+  ); /* Use the correct variable for background color */
 }
 
 .footer .logo {
@@ -329,10 +331,9 @@ header address .list-item-link:focus {
 }
 
 .footer .logo .logo-studio-3 {
-  color: var(--cornflower);
+  color: #f4f4fd; /* Set the text color for the 'Studio' span */
 }
 
-.footer .footer-paragraph {
-  color: var(--white);
-  line-height: 1.5;
+.footer .logo .link {
+  text-decoration: none; /* Remove standard underline for the link */
 }
