@@ -16,7 +16,6 @@ body {
 
 .logo,
 .logo-web,
-.logo-studio,
 .link,
 .link-address,
 .link-studio,
@@ -25,6 +24,11 @@ body {
   font-style: normal;
 }
 
+.logo-studio {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--iris);
+}
 .logo-studio-2 {
   color: var(--navyblue);
   text-decoration: none;
@@ -33,7 +37,7 @@ body {
   color: var(--cloud);
   text-decoration: none;
 }
-.logo {
+/* .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -41,7 +45,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
+} */
 
 .list {
   list-style-type: none;
@@ -306,4 +310,29 @@ header address .list-item-link:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/* footer styling */
+.footer {
+  background-color: var(--navyblue);
+}
+
+.footer .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--4d5ae5); /* Updated to use the correct variable */
+  text-decoration: none;
+}
+
+.footer .logo .logo-studio-3 {
+  color: var(--cornflower);
+}
+
+.footer .footer-paragraph {
+  color: var(--white);
+  line-height: 1.5;
 }
