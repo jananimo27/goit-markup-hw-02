@@ -1,0 +1,99 @@
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --ocean: #404bbf;
+  --white: #fff;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--navyblue); /* C10 */
+}
+
+.link,
+.link-address,
+.link-studio {
+  text-decoration: none;
+  font-size: 16px; /* C11 */
+  line-height: 1.5; /* C12 */
+  letter-spacing: 0.32px;
+}
+
+.link:hover,
+.link:focus,
+.link-address:hover,
+.link-address:focus,
+.link-studio:hover,
+.link-studio:focus {
+  color: var(--ocean); /* C5 */
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+  font-style: normal; /* C13 */
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.167; /* C12 */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-web {
+  color: var(--iris);
+}
+
+.logo-studio {
+  color: var(--navyblue);
+}
+
+.logo-studio-2 {
+  color: var(--white);
+}
+
+.bg-darkblue {
+  background-color: var(--navyblue);
+}
+
+.font-color {
+  color: var(--navyblue);
+}
+
+.hero-text {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.hero-button {
+  border-radius: 4px;
+  background: var(--iris);
+  border-style: none;
+  color: var(--white);
+  cursor: pointer; /* C16 */
+}
+
+.paragraph {
+  color: var(--slate);
+}
+
+.section-name {
+  text-align: center;
+  color: var(--navyblue);
+}
+
+.footer-paragraph {
+  color: var(--white);
+  line-height: 1.5;
+}
