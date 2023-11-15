@@ -106,6 +106,69 @@ body {
   line-height: 1.5;
 }
 
+/* Header Styles */
+header .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+header .logo .link {
+  text-decoration: none;
+}
+
+header .logo .span-studio {
+  color: var(--navyblue);
+}
+
+header nav .list {
+  list-style: none;
+}
+
+header nav .list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-decoration: none;
+}
+
+header nav .list-item-link:hover,
+header nav .list-item-link:focus {
+  color: var(--404bbf);
+}
+
+header nav .list-item-link.logo:hover,
+header nav .list-item-link.logo:focus {
+  color: var(--iris);
+}
+
+header address {
+  font-style: normal;
+}
+
+header address .list {
+  list-style: none;
+}
+
+header address .list-item-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+header address .list-item-link:hover,
+header address .list-item-link:focus {
+  color: #404bbf;
+}
+
 /* Additional styling for links in the list */
 .list-item-link {
   font-weight: 500;
@@ -124,4 +187,123 @@ body {
 .list-item-link.logo:hover,
 .list-item-link.logo:focus {
   color: var(--iris);
+}
+
+/* section 1 styling  */
+.bg-darkblue {
+  background-color: var(--navyblue);
+}
+
+.bg-darkblue .header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.bg-darkblue .button {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bg-darkblue .button:hover,
+.bg-darkblue .button:focus {
+  background-color: #404bbf;
+}
+
+/* section 2 styling  */
+
+.section-two .list {
+  list-style: none;
+}
+
+.section-two .list-item .header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.section-two .list-item .paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Reusing classes for the second, third, and fourth items */
+.section-two .list-item:nth-child(2) .header,
+.section-two .list-item:nth-child(3) .header,
+.section-two .list-item:nth-child(4) .header,
+.section-two .list-item:nth-child(2) .paragraph,
+.section-two .list-item:nth-child(3) .paragraph,
+.section-two .list-item:nth-child(4) .paragraph {
+  /* Reuse styles from the first item */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+/* section 3 styling */
+
+.section-three .header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.section-three .list {
+  list-style: none;
+}
+
+/* section 4 styling */
+
+.section-four {
+  background-color: #f4f4fd;
+}
+
+.section-four .header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.section-four .list {
+  list-style: none;
+}
+
+.section-four .list-item {
+  background-color: #ffffff;
+}
+
+.section-four .list-item .header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-align: left;
+}
+
+.section-four .list-item .paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
