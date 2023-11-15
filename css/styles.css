@@ -10,16 +10,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--navyblue); /* C10 */
+  color: var(--navyblue);
+  background-color: var(--cloud); /* Specify the background color */
 }
 
 .link,
 .link-address,
 .link-studio {
   text-decoration: none;
-  font-size: 16px; /* C11 */
-  line-height: 1.5; /* C12 */
-  letter-spacing: 0.32px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; /* Adjusted letter-spacing */
 }
 
 .link:hover,
@@ -28,23 +29,24 @@ body {
 .link-address:focus,
 .link-studio:hover,
 .link-studio:focus {
-  color: var(--ocean); /* C5 */
+  color: var(--ocean);
 }
 
 .list {
   list-style-type: none;
   padding-left: 0;
-  font-style: normal; /* C13 */
+  font-style: normal;
 }
 
 .logo {
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.167; /* C12 */
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em; /* Adjusted letter-spacing */
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
+  color: var(--iris);
 }
 
 .logo-web {
@@ -81,7 +83,7 @@ body {
   background: var(--iris);
   border-style: none;
   color: var(--white);
-  cursor: pointer; /* C16 */
+  cursor: pointer;
 }
 
 .paragraph {
@@ -96,4 +98,24 @@ body {
 .footer-paragraph {
   color: var(--white);
   line-height: 1.5;
+}
+
+/* Additional styling for links in the list */
+.list-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-decoration: none;
+}
+
+.list-item-link:hover,
+.list-item-link:focus {
+  color: var(--ocean);
+}
+
+.list-item-link.logo:hover,
+.list-item-link.logo:focus {
+  color: var(--iris);
 }
