@@ -21,31 +21,19 @@ body {
 .link-studio,
 .list-item-link {
   text-decoration: none;
-  font-style: normal;
 }
 
 .logo-studio {
-  text-decoration: none;
-  font-style: normal;
   color: var(--iris);
 }
+
 .logo-studio-2 {
   color: var(--navyblue);
-  text-decoration: none;
 }
+
 .logo-studio-3 {
   color: var(--cloud);
-  text-decoration: none;
 }
-/* .logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
-} */
 
 .list {
   list-style-type: none;
@@ -57,7 +45,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--2e2f42);
+  color: var(--navyblue);
   text-decoration: none;
 }
 
@@ -110,7 +98,6 @@ body {
   line-height: 1.5;
 }
 
-/* Header Styles */
 header .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -119,18 +106,6 @@ header .logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
-
-header .logo .link {
-  text-decoration: none;
-}
-
-header .logo .span-studio {
-  color: var(--navyblue);
-}
-
-header nav .list {
-  list-style: none;
 }
 
 header nav .list-item-link {
@@ -152,14 +127,6 @@ header nav .list-item-link.logo:focus {
   color: var(--iris);
 }
 
-header address {
-  font-style: normal;
-}
-
-header address .list {
-  list-style: none;
-}
-
 header address .list-item-link {
   font-size: 16px;
   line-height: 1.5;
@@ -173,7 +140,6 @@ header address .list-item-link:focus {
   color: #404bbf;
 }
 
-/* Additional styling for links in the list */
 .list-item-link {
   font-weight: 500;
   font-size: 16px;
@@ -181,6 +147,7 @@ header address .list-item-link:focus {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   text-decoration: none;
+  font-style: normal;
 }
 
 .list-item-link:hover,
@@ -193,7 +160,6 @@ header address .list-item-link:focus {
   color: var(--iris);
 }
 
-/* section 1 styling  */
 .bg-darkblue {
   background-color: var(--navyblue);
 }
@@ -222,12 +188,6 @@ header address .list-item-link:focus {
   background-color: #404bbf;
 }
 
-/* section 2 styling  */
-
-.section-two .list {
-  list-style: none;
-}
-
 .section-two .list-item .header {
   font-weight: 500;
   font-size: 20px;
@@ -243,23 +203,6 @@ header address .list-item-link:focus {
   color: #434455;
 }
 
-/* Reusing classes for the second, third, and fourth items */
-.section-two .list-item:nth-child(2) .header,
-.section-two .list-item:nth-child(3) .header,
-.section-two .list-item:nth-child(4) .header,
-.section-two .list-item:nth-child(2) .paragraph,
-.section-two .list-item:nth-child(3) .paragraph,
-.section-two .list-item:nth-child(4) .paragraph {
-  /* Reuse styles from the first item */
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navyblue);
-}
-
-/* section 3 styling */
-
 .section-three .header {
   font-size: 36px;
   line-height: 1.11;
@@ -268,12 +211,6 @@ header address .list-item-link:focus {
   text-transform: capitalize;
   color: var(--navyblue);
 }
-
-.section-three .list {
-  list-style: none;
-}
-
-/* section 4 styling */
 
 .section-four {
   background-color: #f4f4fd;
@@ -286,14 +223,6 @@ header address .list-item-link:focus {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
-}
-
-.section-four .list {
-  list-style: none;
-}
-
-.section-four .list-item {
-  background-color: #ffffff;
 }
 
 .section-four .list-item .header {
@@ -312,11 +241,8 @@ header address .list-item-link:focus {
   color: #434455;
 }
 
-/* footer styling */
 .footer {
-  background-color: var(
-    --navyblue
-  ); /* Use the correct variable for background color */
+  background-color: var(--navyblue);
 }
 
 .footer .logo {
@@ -326,14 +252,14 @@ header address .list-item-link:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--4d5ae5); /* Updated to use the correct variable */
+  color: var(--iris);
   text-decoration: none;
 }
 
 .footer .logo .logo-studio-3 {
-  color: #f4f4fd; /* Set the text color for the 'Studio' span */
+  color: #f4f4fd;
 }
 
 .footer .logo .link {
-  text-decoration: none; /* Remove standard underline for the link */
+  text-decoration: none;
 }
