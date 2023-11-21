@@ -51,8 +51,8 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 2.5;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02;
   text-transform: capitalize;
 }
 
@@ -143,15 +143,40 @@ address {
 /* END OF HERO SECTION STYLING */
 
 /* TEAM SECTION STYLING */
+
+.team {
+  background-color: #f4f4fd;
+}
 .team-name {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
+.list-item {
+  background-color: #ffffff;
+}
+
 /*END OF HERO SECTION STYLING*/
+/* ABOUT SECTION STYLING */
+
+.sec-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue, #2e2f42);
+}
+
+.sec-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate, #434455);
+}
+/* END OF ABOUT SECTION STYLING */
 
 /* FOOTER STYLING */
 .logo-studio-footer {
