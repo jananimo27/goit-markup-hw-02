@@ -25,9 +25,13 @@ body {
 }
 
 .logo {
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 
 .logo-web {
@@ -64,6 +68,10 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.4px;
+}
+
+address {
+  font-style: normal;
 }
 
 /* END OF GENERAL STYLING */
@@ -108,9 +116,10 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  font-style: normal;
 }
 
 .hero-button {
