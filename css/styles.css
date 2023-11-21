@@ -166,6 +166,10 @@ address {
 /*END OF HERO SECTION STYLING*/
 /* ABOUT SECTION STYLING */
 
+.list-item {
+  margin-bottom: 20px;
+}
+
 .sec-header {
   font-weight: 500;
   font-size: 20px;
