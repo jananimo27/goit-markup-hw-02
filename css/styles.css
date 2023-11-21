@@ -188,26 +188,28 @@ header address .list-item-link:focus {
   background-color: #404bbf;
 }
 
-.section-two .list {
-  list-style: none; /* Turning off the default list design */
-  padding-left: 0; /* Removing default list padding */
+/* Custom list class to turn off default list design */
+.custom-list {
+  list-style: none;
+  padding-left: 0;
 }
 
-.section-two .list-item .header {
+/* Header styles for items in the list */
+.custom-list li .section-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navyblue); /* Text color using a CSS variable */
+  color: var(--navyblue); /* Use the appropriate variable for text color */
 }
 
-.section-two .list-item .paragraph {
+/* Paragraph styles for items in the list */
+.custom-list li .section-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* Text color using a CSS variable */
+  color: #434455; /* Use the appropriate variable for text color */
 }
-
 .section-three .header {
   font-size: 36px;
   line-height: 1.11;
