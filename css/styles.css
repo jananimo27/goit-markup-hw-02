@@ -242,7 +242,7 @@ header address .list-item-link:focus {
 }
 
 .footer {
-  background-color: var(--navyblue);
+  background-color: var(--navyblue); /* Background color using a CSS variable */
 }
 
 .footer .logo {
@@ -252,14 +252,14 @@ header address .list-item-link:focus {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: var(--iris); /* Color using a CSS variable */
   text-decoration: none;
-}
-
-.footer .logo .logo-studio-3 {
-  color: #f4f4fd;
 }
 
 .footer .logo .link {
   text-decoration: none;
+}
+
+.footer .logo .logo-studio {
+  color: #f4f4fd; /* Text color for the 'Studio' span */
 }
