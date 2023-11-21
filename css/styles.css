@@ -73,26 +73,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.4px;
 }
-
-.item {
-  margin-bottom: 20px;
-}
-
-.header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navyblue, #2e2f42);
-}
-
-.paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate, #434455);
-}
-
 address {
   font-style: normal;
 }
@@ -185,11 +165,7 @@ address {
 /*END OF HERO SECTION STYLING*/
 /* ABOUT SECTION STYLING */
 
-.list-item {
-  margin-bottom: 20px;
-}
-
-.sec-header {
+.about-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -197,7 +173,7 @@ address {
   color: var(--navyblue, #2e2f42);
 }
 
-.sec-paragraph {
+.about-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
